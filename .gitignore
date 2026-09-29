@@ -1,0 +1,38 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos generados por Python y pruebas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Configuración local de MySQL (incluye contraseña)
+/src/config/mysql_connection.py
+# Se conserva mysql_connection.example.py para configurar una copia nueva.
+
+# Variables locales, si alguna herramienta las genera
+.env
+.env.*
+!.env.example
+
+# Editores
+.idea/
+.vscode/
+
+# Sistema operativo y temporales
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+
+# Distribuciones de Python
+build/
+dist/
+*.egg-info/
