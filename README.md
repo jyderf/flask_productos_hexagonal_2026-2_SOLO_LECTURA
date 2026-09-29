@@ -1,3 +1,9 @@
+# Arrancar el proyecto con:
+flask run
+
+# Arrancar el proyecto de forma reactiva con:
+flask --app app run --debug
+
 # Productos con Flask y MySQL
 
 Proyecto educativo para leer productos de MySQL y mostrarlos en HTML, sin crear, editar ni eliminar registros desde la aplicación. Usa Python 3.12, Flask, Jinja2 y arquitectura hexagonal.
